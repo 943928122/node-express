@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "forceAllTransforms": true
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-regenerator",
+    "@babel/plugin-transform-runtime"
+  ]
+}
